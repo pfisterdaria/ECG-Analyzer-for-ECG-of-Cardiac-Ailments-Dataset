@@ -1,3 +1,4 @@
 # ECG-Analyzer-for-ECG-of-Cardiac-Ailments-Dataset
 This code creates an ECG Analyzer for an ECG of Cardiac Ailments Dataset found on Kaggle.
+
 Approach: Utilizes machine learning algorithm to classify heart rhythms based on analyzation of quantitative ECG features. The dataset was split into 90% and 10% portions, with the 90% being further portioned for training and testing models, while the 10% was saved for a final "Predict" model. The training model uses a random forest machine learning algorithm with 78% of the portioned dataset to train the program on how to analyze the data. The remaining 22% of the portioned dataset was then utilized in a test model, where the accuracy of the trained model was tested. Finally, a "Predict" model was developed, which is an actual usable program where a new dataset can be input and an ailment classification will be output based on the machine-learning trained model.
